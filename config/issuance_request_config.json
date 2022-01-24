@@ -1,0 +1,26 @@
+{
+  "authority": "",
+  "includeQRCode": false,
+  "registration": {
+    "clientName": ""
+  },
+  "callback": {
+    "url": "https://soumiorg.onmicrosoft.com/api/issuer/issuanceCallback",
+    "state": "abc1234",
+    "headers": {
+      "api-key": ""
+    }
+  },
+  "issuance": {
+    "type": "VerifiedCredentialExpert",
+    "manifest": "",
+    "pin": {
+      "value": "1234",
+      "length": 4
+    },
+    "claims": {
+      "given_name": "",
+      "family_name": ""
+    }
+  }
+}

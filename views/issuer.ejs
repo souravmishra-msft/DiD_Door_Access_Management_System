@@ -1,0 +1,26 @@
+<div style="text-align: center;">
+    <img src="/assets/mainLogo-1.gif" height="25%" width="25%">
+    <h1>Door Access Management System</h1>
+    <hr>
+
+    <button type="button" id="sign-in" class="button">Get A Credential</button>
+    <div id="qrText"  style="display:none;">
+        <p class="small-text">
+            <img src="/assets/AuthenticatorLogo-2.png" alt="Authenticator icon" class="icon-small"><br>
+            Scan with Microsoft Authenticator
+        </p>
+    </div>
+    <a id="deeplink" style="display: none;margin-top: 10px;">Tap to open Authenticator on mobile</a>
+    <div id="qr-container">
+        <div id="qrcode" class="qrcode"></div>
+    </div>
+    <div id="pinCodeText" style="display: none;"></div>
+
+    <div id="message-wrapper" class="margin-bottom-75 margin-top-75" style="display: none">
+        <i class="fas fa-user-check green icon-text-large margin-bottom-25"></i>
+        <div id="message"></div>
+    </div>
+
+</div>
+
+
